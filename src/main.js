@@ -9,6 +9,7 @@ import { domain, clientId } from "../auth_config.json";
 // Import the plugin here
 import { Auth0Plugin } from "./auth";
 
+
 // Install the authentication plugin here
 Vue.use(Auth0Plugin, {
   domain,
